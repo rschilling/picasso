@@ -17,6 +17,10 @@ android {
         }
     }
 
+    sourceSets {
+        main.java.srcDirs += '../../../picasso/src/main/java'
+    }
+
 }
 
 dependencies {
