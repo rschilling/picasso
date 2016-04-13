@@ -1,3 +1,0 @@
-[submodule "submodules/okhttp"]
-	path = submodules/okhttp
-	url = git@bitbucket.org:ccontrol/okhttp.git
