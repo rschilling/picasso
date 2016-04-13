@@ -9,6 +9,18 @@ For more information please see [the website][1]
 
 
 
+Branches
+--------
+This repository was forked from https://github.com/square/okhttp and it's understood that 
+not all pull requests will be accepted by that project, but be required by the forked version. 
+So, the following branches are created so that the original project and this project can use 
+standardized branch names without colliding :
+
+    poleved : used in place of branch develop, with the same branch semantics as develop.
+    retsam : used in place of branch master, with the same branch semantics as master.
+
+
+
 Download
 --------
 
