@@ -1,0 +1,11 @@
+include ':picassoApp', ':picassoLibrary'
+
+include ':okhttp'
+include ':okio'
+
+// in your global Gradle settings file (~/.gradle/gradle.properties) be sure to set properties for:
+//     OKIO_DIR=<the top level directory of the OKIO library clone>
+//     OKHTTP_DIR=<the top level directory of the OKHTTP library clone>
+
+project(':okio').projectDir = file(OKIO_DIR + '/ide/okio_android_studio/okioLibrary')
+project(':okhttp').projectDir = file(OKHTTP_DIR + '/ide/okhttp_android_studio/okhttpLibrary')
